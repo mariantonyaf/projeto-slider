@@ -127,3 +127,26 @@ header a{
     border-radius: 10px;
     filter: brightness(80%);
 }
+
+.container .thumb .content{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.container .arrows{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 120px;
+    left: 120px;
+    width: 300px;
+}
+
+.container .arrows button{
+    border-radius: 10px;
+    border: none;
+    padding: 12px 17px;
+    background-color: #eee4;
+}
