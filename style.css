@@ -87,3 +87,21 @@ header a{
     cursor: pointer;
     text-transform: uppercase;
 }
+
+.container .list .list-item .buttons button:hover{
+    background-color: transparent;
+    border: 1px solid #eee;
+    color: #eee;
+    transition: 0.7s;
+}
+
+.container .list .list-item .buttons button:nth-child(2){
+    background-color: transparent;
+    border: 1px solid #eee;
+    color: #eee;
+}
+
+.container .list .list-item .buttons button:nth-child(2):hover{
+    background-color: #eee;
+    color: #000;
+}
