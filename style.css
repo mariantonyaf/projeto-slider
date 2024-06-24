@@ -11,4 +11,20 @@
 body{
     background-color: #000;
     color: #eee;
+    font-size: 12px;
+}
+
+header{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+}
+
+header a{
+    color: #eee;
+    margin-right: 40px;
 }
