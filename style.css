@@ -149,4 +149,13 @@ header a{
     border: none;
     padding: 12px 17px;
     background-color: #eee4;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.container .arrows button:hover{
+    background-color: #eee;
+    color: #000;
+    transition: 0.7s;
 }
