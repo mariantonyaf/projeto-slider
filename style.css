@@ -185,9 +185,9 @@ header a{
 
 /* TEXTOS PRINCIPAIS */
 
-.container .list .thumb-item:nth-last-child(1) .content .title,
-.container .list .thumb-item:nth-last-child(1) .content .description,
-.container .list .thumb-item:nth-last-child(1) .content .buttons{
+.container .list .list-item:nth-last-child(1) .content .title,
+.container .list .list-item:nth-last-child(1) .content .description,
+.container .list .list-item:nth-last-child(1) .content .buttons{
     transform: translateY(50px);
     filter: blur(20px);
     opacity: 0;
