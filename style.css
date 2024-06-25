@@ -219,7 +219,7 @@ header a{
     height: 220px;
     position: absolute;
     bottom: 50px;
-    left: 50px;
+    left: 50%;
     border-radius: 30px;
     animation: showMainImage 0.5s linear 1 forwards;
 }
