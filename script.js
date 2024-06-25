@@ -26,7 +26,7 @@ function moveItemsOnClick(type){
     }
 
     setTimeout(() => {
-        container.classList.add('next')
-        container.classList.add('back')
+        container.classList.remove('next')
+        container.classList.remove('back')
     }, 3000);
 }
