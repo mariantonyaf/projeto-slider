@@ -118,6 +118,7 @@ header a{
     width: 135px;
     height: 200px;
     position: relative;
+    z-index: 3;
 }
 
 .container .thumb .thumb-item img{
